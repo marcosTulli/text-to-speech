@@ -1,0 +1,20 @@
+# FastAPI dependencies
+fastapi>=0.68.0,<0.69.0
+pydantic>=1.8.0,<2.0.0
+uvicorn[fastapi]>=0.15.0,<0.16.0
+
+# Audio and TTS dependencies
+pydub==0.24.1
+azure-cognitiveservices-speech==1.15.0
+
+# Content parsing dependencies
+bs4==0.0.1
+feedparser==6.0.2
+dateparser==1.0.0
+
+# Other dependencies
+requests==2.25.0
+tqdm==4.55.1
+tweepy==3.10.0
+azure-storage-file==2.1.0
+azure-storage-blob==12.8.1
